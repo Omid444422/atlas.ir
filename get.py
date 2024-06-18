@@ -184,7 +184,7 @@ for single_word_link in word_links_files:
 
             atlas_ir_txt_file.write('='*150 + '\n')
 
-        print(str(counter) + ' ' + current_word_data)
+        print(str(counter) + ' ' + current_word_data['title'] + ' created')
         print('='*150)
 
 
